@@ -4,17 +4,15 @@
 //
 //  Created by liufan on 2020/6/6.
 //
+//  对外业务层
 
 #import <Foundation/Foundation.h>
-
-NS_ASSUME_NONNULL_BEGIN
-
+#import "LFRouteProtocol.h"
 @interface LFRouteService : NSObject
 
-+ (BOOL)canReceiveRouteURL:(NSString *)routeUrl;
++ (BOOL)receiveRouteURL:(NSString *)routeUrl;
 
-+ (void)receiveRouteURL:(NSString *)routeUrl;
++ (BOOL)receiveRouteURL:(NSString *)routeUrl
+             completion:(LFRouteCompletion)handler;
 
 @end
-
-NS_ASSUME_NONNULL_END

@@ -8,16 +8,19 @@
 
 /* Begin PBXBuildFile section */
 		022CB26A3BC2FBF1C9D7F192C801FCA6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
-		033A52E70CC81509EF6CF2ED56B63E91 /* LFRouteService.h in Headers */ = {isa = PBXBuildFile; fileRef = 9F39C3DAA0E95EF48A63BAE2A8337448 /* LFRouteService.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		047D9BB7CE2D70A25A2F1FC655F37F12 /* LFRouteService.m in Sources */ = {isa = PBXBuildFile; fileRef = 0909C6A1704EF82D72FE3113BE26BD1A /* LFRouteService.m */; };
-		1D8F6A2D9D1C7AC9D4E1A53E9C290539 /* LFRouteService-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = EBDCF7093E32941DF1A8825AE0084A9C /* LFRouteService-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		05899059A4E40575C6451968204F299E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		0A80C8C763E055FA96A9F348F9588234 /* LFRouteService-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CF9AB179580AD1ACB35570EA765CDD1 /* LFRouteService-dummy.m */; };
 		1ED89774AE144B94AB67179DB4A7FD50 /* Pods-LFRouteService_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 3A7C7D2C9F5296B5D50C94AEFA3F7DAD /* Pods-LFRouteService_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		31C136522D4417F64FBF024F8F930EAD /* LFRouteManage.m in Sources */ = {isa = PBXBuildFile; fileRef = 302CCC769D90247C033ED2DC9B4AD780 /* LFRouteManage.m */; };
+		4FDD94B56B99A86E7859C881A72F942C /* LFRouteService.h in Headers */ = {isa = PBXBuildFile; fileRef = C508EA7E6D2261A284F3CA6A15FB249E /* LFRouteService.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		5E8FA79A1066F3335DF3289EEF835C5C /* Pods-LFRouteService_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F012A4760AACE1D96142C81AA86AAD3B /* Pods-LFRouteService_Tests-dummy.m */; };
 		7E89899D09A137904BB357CCDBC7465E /* Pods-LFRouteService_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = AA18B58B25D6946C09F29E3514C957E1 /* Pods-LFRouteService_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		B1F11C2CE345DD3DC9DAD83ADFB8A1CC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		846FFE561B04EFA1EFC42EC21424825D /* LFRouteService.m in Sources */ = {isa = PBXBuildFile; fileRef = EA786DAD01F1A9D6A20BD8A51375445B /* LFRouteService.m */; };
+		9FFC45762181AC4F6FF6F4F35BF5CC8E /* LFRouteProtocol.h in Headers */ = {isa = PBXBuildFile; fileRef = 3E2AC9087B0127E6D86438E3923C4B53 /* LFRouteProtocol.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A757FD1587DDA5E705EA2EC293F55282 /* LFRouteManage.h in Headers */ = {isa = PBXBuildFile; fileRef = 75356A462F06ED6783261AF44D2B0EF8 /* LFRouteManage.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D0B1599E431575BA2C1A04FE4A95C21B /* LFRouteService-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 9CE2022832BCF3BC05F0BA6FADECB05D /* LFRouteService-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		D4D351B8F5C88C65B5D5AC47A540220C /* Pods-LFRouteService_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2FCE19BE0B4100BE20213A5095E119C2 /* Pods-LFRouteService_Example-dummy.m */; };
 		E65DF3771E9F8DE7F8ECB048A0D2ECF8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
-		EE70C59B4FF4C30136D8B23534F4B5CF /* LFRouteService-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 26859E445D7C2EE9F73D40CD6C51278B /* LFRouteService-dummy.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,36 +43,39 @@
 /* Begin PBXFileReference section */
 		01D3D8CB3A010329B246168F0D44C29F /* Pods-LFRouteService_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-LFRouteService_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		057D6ABF0463767352D51BB599135EF9 /* Pods_LFRouteService_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_LFRouteService_Tests.framework; path = "Pods-LFRouteService_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		0909C6A1704EF82D72FE3113BE26BD1A /* LFRouteService.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = LFRouteService.m; path = LFRouteService/Classes/LFRouteService.m; sourceTree = "<group>"; };
 		11C1ED72937D37E276E71C8EAADD6258 /* Pods-LFRouteService_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LFRouteService_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		1F0AD635907F0FF3CC0FF0F6F335C829 /* LFRouteService.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = LFRouteService.modulemap; sourceTree = "<group>"; };
-		26859E445D7C2EE9F73D40CD6C51278B /* LFRouteService-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "LFRouteService-dummy.m"; sourceTree = "<group>"; };
+		2070B1057DE6CC4113588D4B1591CBA6 /* LFRouteService-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "LFRouteService-prefix.pch"; sourceTree = "<group>"; };
 		2F9F31FC079E6543140A410EFABE7705 /* Pods-LFRouteService_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-LFRouteService_Tests.modulemap"; sourceTree = "<group>"; };
 		2FCE19BE0B4100BE20213A5095E119C2 /* Pods-LFRouteService_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-LFRouteService_Example-dummy.m"; sourceTree = "<group>"; };
+		302CCC769D90247C033ED2DC9B4AD780 /* LFRouteManage.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = LFRouteManage.m; path = LFRouteService/Classes/LFRouteManage.m; sourceTree = "<group>"; };
 		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		3A7C7D2C9F5296B5D50C94AEFA3F7DAD /* Pods-LFRouteService_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-LFRouteService_Example-umbrella.h"; sourceTree = "<group>"; };
-		4510BAE1BED3C45EC01603011DDE4033 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
-		5AEB1AEA9E55FAA65AE9932F3C820D37 /* LFRouteService.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = LFRouteService.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		636B4D97280BC68CA8D123C7FAC21A26 /* LFRouteService-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "LFRouteService-prefix.pch"; sourceTree = "<group>"; };
+		3E2AC9087B0127E6D86438E3923C4B53 /* LFRouteProtocol.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LFRouteProtocol.h; path = LFRouteService/Classes/LFRouteProtocol.h; sourceTree = "<group>"; };
+		4CF9AB179580AD1ACB35570EA765CDD1 /* LFRouteService-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "LFRouteService-dummy.m"; sourceTree = "<group>"; };
+		64F68B6715C20DB3A3F6FF6A23EDF0F2 /* LFRouteService-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "LFRouteService-Info.plist"; sourceTree = "<group>"; };
+		75356A462F06ED6783261AF44D2B0EF8 /* LFRouteManage.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LFRouteManage.h; path = LFRouteService/Classes/LFRouteManage.h; sourceTree = "<group>"; };
+		79DE44DF542B7D70713199D5269E7463 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
 		7CAF4C214E19559CD59300C76E7A7415 /* Pods-LFRouteService_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LFRouteService_Tests-Info.plist"; sourceTree = "<group>"; };
 		7F9AC5669233A1E98E538B3B183A0329 /* LFRouteService.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = LFRouteService.framework; path = LFRouteService.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		88B912B48A24C169878191C61908AB12 /* LFRouteService.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = LFRouteService.xcconfig; sourceTree = "<group>"; };
 		8CE72702682194C1D8A7C1A156F9B6CE /* Pods_LFRouteService_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_LFRouteService_Example.framework; path = "Pods-LFRouteService_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8D84ECC06094FF2B2786B71EC1C0B8EE /* Pods-LFRouteService_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-LFRouteService_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		9CE2022832BCF3BC05F0BA6FADECB05D /* LFRouteService-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "LFRouteService-umbrella.h"; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		9F39C3DAA0E95EF48A63BAE2A8337448 /* LFRouteService.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LFRouteService.h; path = LFRouteService/Classes/LFRouteService.h; sourceTree = "<group>"; };
-		9F4CC8772D41B49F9C7161E34F1E78F8 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
 		9FB1251E26BEAF4D8619F1F452DBED57 /* Pods-LFRouteService_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-LFRouteService_Example.modulemap"; sourceTree = "<group>"; };
 		A1095E1BBC38414612BF162B00B54BEC /* Pods-LFRouteService_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LFRouteService_Example-Info.plist"; sourceTree = "<group>"; };
 		A9BFCD9138F663CCCA860E2E27165CCB /* Pods-LFRouteService_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LFRouteService_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		AA18B58B25D6946C09F29E3514C957E1 /* Pods-LFRouteService_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-LFRouteService_Tests-umbrella.h"; sourceTree = "<group>"; };
+		AEBD673456769C3E54C66003B1DF648A /* LFRouteService.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = LFRouteService.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		BC30ED6A48836C00301AD3C0ED9CE755 /* Pods-LFRouteService_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LFRouteService_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		C508EA7E6D2261A284F3CA6A15FB249E /* LFRouteService.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LFRouteService.h; path = LFRouteService/Classes/LFRouteService.h; sourceTree = "<group>"; };
+		CB97B07C848E9D5483AD4F51E45DDA1C /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
 		D025A16D877310FB137CB91B71FEF343 /* Pods-LFRouteService_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-LFRouteService_Example-frameworks.sh"; sourceTree = "<group>"; };
 		D0FB0D31FB7D5092061C2127535B9249 /* Pods-LFRouteService_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LFRouteService_Example.release.xcconfig"; sourceTree = "<group>"; };
-		D742EB9D3A9030F9F7345B5B764D14E9 /* LFRouteService-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "LFRouteService-Info.plist"; sourceTree = "<group>"; };
+		D97A56E68F4EF31023AB44BDDDBEED17 /* LFRouteService.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = LFRouteService.modulemap; sourceTree = "<group>"; };
 		E23BE3CD2828BED119BC4338E4979ADA /* Pods-LFRouteService_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LFRouteService_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		E70C5B3DA079F0886322D7D4A71FE4D8 /* Pods-LFRouteService_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LFRouteService_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		EBDCF7093E32941DF1A8825AE0084A9C /* LFRouteService-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "LFRouteService-umbrella.h"; sourceTree = "<group>"; };
-		EEB1054636A3A77E451B179949DC877E /* LFRouteService.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = LFRouteService.xcconfig; sourceTree = "<group>"; };
+		EA786DAD01F1A9D6A20BD8A51375445B /* LFRouteService.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = LFRouteService.m; path = LFRouteService/Classes/LFRouteService.m; sourceTree = "<group>"; };
 		F012A4760AACE1D96142C81AA86AAD3B /* Pods-LFRouteService_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-LFRouteService_Tests-dummy.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -90,11 +96,11 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		CD38ABC84A9A3B1A8B50507C1E9C2F1D /* Frameworks */ = {
+		8C5293711AEA2569039D4C321489467C /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B1F11C2CE345DD3DC9DAD83ADFB8A1CC /* Foundation.framework in Frameworks */,
+				05899059A4E40575C6451968204F299E /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -118,16 +124,6 @@
 			path = "Target Support Files/Pods-LFRouteService_Example";
 			sourceTree = "<group>";
 		};
-		4353E8D3B6C959C2AA96E25D8369F2C7 /* Pod */ = {
-			isa = PBXGroup;
-			children = (
-				5AEB1AEA9E55FAA65AE9932F3C820D37 /* LFRouteService.podspec */,
-				9F4CC8772D41B49F9C7161E34F1E78F8 /* LICENSE */,
-				4510BAE1BED3C45EC01603011DDE4033 /* README.md */,
-			);
-			name = Pod;
-			sourceTree = "<group>";
-		};
 		473C0C9E54E6E31ED194710404B3C2FD /* Products */ = {
 			isa = PBXGroup;
 			children = (
@@ -136,6 +132,29 @@
 				057D6ABF0463767352D51BB599135EF9 /* Pods_LFRouteService_Tests.framework */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		638B7E6C834FBC300413B820C65F0F3A /* LFRouteService */ = {
+			isa = PBXGroup;
+			children = (
+				75356A462F06ED6783261AF44D2B0EF8 /* LFRouteManage.h */,
+				302CCC769D90247C033ED2DC9B4AD780 /* LFRouteManage.m */,
+				3E2AC9087B0127E6D86438E3923C4B53 /* LFRouteProtocol.h */,
+				C508EA7E6D2261A284F3CA6A15FB249E /* LFRouteService.h */,
+				EA786DAD01F1A9D6A20BD8A51375445B /* LFRouteService.m */,
+				E1E2B21A6187C9FC611A7DE785652163 /* Pod */,
+				DDC7D5C2E5679465D10946934ABCDADD /* Support Files */,
+			);
+			name = LFRouteService;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		6D5E934296B489DAFF0456B4444403EB /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				638B7E6C834FBC300413B820C65F0F3A /* LFRouteService */,
+			);
+			name = "Development Pods";
 			sourceTree = "<group>";
 		};
 		8DF19E9FE3B6F903B26E5EFD5DEA3D66 /* Pods-LFRouteService_Tests */ = {
@@ -152,32 +171,6 @@
 			);
 			name = "Pods-LFRouteService_Tests";
 			path = "Target Support Files/Pods-LFRouteService_Tests";
-			sourceTree = "<group>";
-		};
-		98A8EBD7F4D235715FA1EFF737D253E4 /* LFRouteService */ = {
-			isa = PBXGroup;
-			children = (
-				9F39C3DAA0E95EF48A63BAE2A8337448 /* LFRouteService.h */,
-				0909C6A1704EF82D72FE3113BE26BD1A /* LFRouteService.m */,
-				4353E8D3B6C959C2AA96E25D8369F2C7 /* Pod */,
-				AC8F8916D539845579614B35FB01E603 /* Support Files */,
-			);
-			name = LFRouteService;
-			path = ../..;
-			sourceTree = "<group>";
-		};
-		AC8F8916D539845579614B35FB01E603 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				1F0AD635907F0FF3CC0FF0F6F335C829 /* LFRouteService.modulemap */,
-				EEB1054636A3A77E451B179949DC877E /* LFRouteService.xcconfig */,
-				26859E445D7C2EE9F73D40CD6C51278B /* LFRouteService-dummy.m */,
-				D742EB9D3A9030F9F7345B5B764D14E9 /* LFRouteService-Info.plist */,
-				636B4D97280BC68CA8D123C7FAC21A26 /* LFRouteService-prefix.pch */,
-				EBDCF7093E32941DF1A8825AE0084A9C /* LFRouteService-umbrella.h */,
-			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/LFRouteService";
 			sourceTree = "<group>";
 		};
 		C0834CEBB1379A84116EF29F93051C60 /* iOS */ = {
@@ -201,7 +194,7 @@
 			isa = PBXGroup;
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
-				F23B58830914D379F16BBBCED438824E /* Development Pods */,
+				6D5E934296B489DAFF0456B4444403EB /* Development Pods */,
 				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
 				473C0C9E54E6E31ED194710404B3C2FD /* Products */,
 				C477B6C1C58BCB859A95F209E83E98AC /* Targets Support Files */,
@@ -216,26 +209,33 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		F23B58830914D379F16BBBCED438824E /* Development Pods */ = {
+		DDC7D5C2E5679465D10946934ABCDADD /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				98A8EBD7F4D235715FA1EFF737D253E4 /* LFRouteService */,
+				D97A56E68F4EF31023AB44BDDDBEED17 /* LFRouteService.modulemap */,
+				88B912B48A24C169878191C61908AB12 /* LFRouteService.xcconfig */,
+				4CF9AB179580AD1ACB35570EA765CDD1 /* LFRouteService-dummy.m */,
+				64F68B6715C20DB3A3F6FF6A23EDF0F2 /* LFRouteService-Info.plist */,
+				2070B1057DE6CC4113588D4B1591CBA6 /* LFRouteService-prefix.pch */,
+				9CE2022832BCF3BC05F0BA6FADECB05D /* LFRouteService-umbrella.h */,
 			);
-			name = "Development Pods";
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/LFRouteService";
+			sourceTree = "<group>";
+		};
+		E1E2B21A6187C9FC611A7DE785652163 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				AEBD673456769C3E54C66003B1DF648A /* LFRouteService.podspec */,
+				79DE44DF542B7D70713199D5269E7463 /* LICENSE */,
+				CB97B07C848E9D5483AD4F51E45DDA1C /* README.md */,
+			);
+			name = Pod;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		29428631BA3D8E3C266A4935059D8F31 /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				1D8F6A2D9D1C7AC9D4E1A53E9C290539 /* LFRouteService-umbrella.h in Headers */,
-				033A52E70CC81509EF6CF2ED56B63E91 /* LFRouteService.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		63ED59F972D7F432212DAFC0A667FB2B /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
@@ -249,6 +249,17 @@
 			buildActionMask = 2147483647;
 			files = (
 				7E89899D09A137904BB357CCDBC7465E /* Pods-LFRouteService_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D0C44808ECEC6089C69C416360ACE5B6 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A757FD1587DDA5E705EA2EC293F55282 /* LFRouteManage.h in Headers */,
+				9FFC45762181AC4F6FF6F4F35BF5CC8E /* LFRouteProtocol.h in Headers */,
+				D0B1599E431575BA2C1A04FE4A95C21B /* LFRouteService-umbrella.h in Headers */,
+				4FDD94B56B99A86E7859C881A72F942C /* LFRouteService.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -295,12 +306,12 @@
 		};
 		E5D58956B9C5DB0D9CD7FA6F13516A98 /* LFRouteService */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = C2094F954A3F427193E836DF8DF28D98 /* Build configuration list for PBXNativeTarget "LFRouteService" */;
+			buildConfigurationList = 0ADC5B09836A5F8DF151E31B057B33FE /* Build configuration list for PBXNativeTarget "LFRouteService" */;
 			buildPhases = (
-				29428631BA3D8E3C266A4935059D8F31 /* Headers */,
-				129580D367D01A4BDD643E838D9DF60E /* Sources */,
-				CD38ABC84A9A3B1A8B50507C1E9C2F1D /* Frameworks */,
-				3F298C3C69A30936621AA14E5BD3B141 /* Resources */,
+				D0C44808ECEC6089C69C416360ACE5B6 /* Headers */,
+				6F0B11FBEF7B507B6B3BF8219E867A48 /* Sources */,
+				8C5293711AEA2569039D4C321489467C /* Frameworks */,
+				46E5B29DF038F24454D613BC2B53B074 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -341,7 +352,7 @@
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		3F298C3C69A30936621AA14E5BD3B141 /* Resources */ = {
+		46E5B29DF038F24454D613BC2B53B074 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -365,12 +376,13 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		129580D367D01A4BDD643E838D9DF60E /* Sources */ = {
+		6F0B11FBEF7B507B6B3BF8219E867A48 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EE70C59B4FF4C30136D8B23534F4B5CF /* LFRouteService-dummy.m in Sources */,
-				047D9BB7CE2D70A25A2F1FC655F37F12 /* LFRouteService.m in Sources */,
+				31C136522D4417F64FBF024F8F930EAD /* LFRouteManage.m in Sources */,
+				0A80C8C763E055FA96A9F348F9588234 /* LFRouteService-dummy.m in Sources */,
+				846FFE561B04EFA1EFC42EC21424825D /* LFRouteService.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -633,37 +645,6 @@
 			};
 			name = Debug;
 		};
-		8F7F6CE170768E67903B3813730C4CC7 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = EEB1054636A3A77E451B179949DC877E /* LFRouteService.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/LFRouteService/LFRouteService-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/LFRouteService/LFRouteService-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/LFRouteService/LFRouteService.modulemap";
-				PRODUCT_MODULE_NAME = LFRouteService;
-				PRODUCT_NAME = LFRouteService;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
 		9FDD77D1BE62F43621D72A004BC14FE2 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 11C1ED72937D37E276E71C8EAADD6258 /* Pods-LFRouteService_Tests.debug.xcconfig */;
@@ -697,9 +678,40 @@
 			};
 			name = Debug;
 		};
-		F6B4BCC3235AD31B667AE1C0DFC440D6 /* Release */ = {
+		DE4C542FD3C887CABA84EE530D35AEE2 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = EEB1054636A3A77E451B179949DC877E /* LFRouteService.xcconfig */;
+			baseConfigurationReference = 88B912B48A24C169878191C61908AB12 /* LFRouteService.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/LFRouteService/LFRouteService-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/LFRouteService/LFRouteService-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/LFRouteService/LFRouteService.modulemap";
+				PRODUCT_MODULE_NAME = LFRouteService;
+				PRODUCT_NAME = LFRouteService;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		F2FCCDD0090F3BD814200A34A29FF4CE /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 88B912B48A24C169878191C61908AB12 /* LFRouteService.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -732,6 +744,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		0ADC5B09836A5F8DF151E31B057B33FE /* Build configuration list for PBXNativeTarget "LFRouteService" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DE4C542FD3C887CABA84EE530D35AEE2 /* Debug */,
+				F2FCCDD0090F3BD814200A34A29FF4CE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -746,15 +767,6 @@
 			buildConfigurations = (
 				1905E2C67E1789489E6F2B4E21B5E64B /* Debug */,
 				653E23A49801A5CF9BBD3C463563D186 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		C2094F954A3F427193E836DF8DF28D98 /* Build configuration list for PBXNativeTarget "LFRouteService" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				8F7F6CE170768E67903B3813730C4CC7 /* Debug */,
-				F6B4BCC3235AD31B667AE1C0DFC440D6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

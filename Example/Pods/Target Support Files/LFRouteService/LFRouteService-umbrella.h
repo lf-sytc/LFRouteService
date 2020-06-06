@@ -10,6 +10,8 @@
 #endif
 #endif
 
+#import "LFRouteManage.h"
+#import "LFRouteProtocol.h"
 #import "LFRouteService.h"
 
 FOUNDATION_EXPORT double LFRouteServiceVersionNumber;
