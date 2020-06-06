@@ -1,0 +1,774 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		022CB26A3BC2FBF1C9D7F192C801FCA6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		033A52E70CC81509EF6CF2ED56B63E91 /* LFRouteService.h in Headers */ = {isa = PBXBuildFile; fileRef = 9F39C3DAA0E95EF48A63BAE2A8337448 /* LFRouteService.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		047D9BB7CE2D70A25A2F1FC655F37F12 /* LFRouteService.m in Sources */ = {isa = PBXBuildFile; fileRef = 0909C6A1704EF82D72FE3113BE26BD1A /* LFRouteService.m */; };
+		1D8F6A2D9D1C7AC9D4E1A53E9C290539 /* LFRouteService-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = EBDCF7093E32941DF1A8825AE0084A9C /* LFRouteService-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1ED89774AE144B94AB67179DB4A7FD50 /* Pods-LFRouteService_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 3A7C7D2C9F5296B5D50C94AEFA3F7DAD /* Pods-LFRouteService_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5E8FA79A1066F3335DF3289EEF835C5C /* Pods-LFRouteService_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F012A4760AACE1D96142C81AA86AAD3B /* Pods-LFRouteService_Tests-dummy.m */; };
+		7E89899D09A137904BB357CCDBC7465E /* Pods-LFRouteService_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = AA18B58B25D6946C09F29E3514C957E1 /* Pods-LFRouteService_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B1F11C2CE345DD3DC9DAD83ADFB8A1CC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		D4D351B8F5C88C65B5D5AC47A540220C /* Pods-LFRouteService_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2FCE19BE0B4100BE20213A5095E119C2 /* Pods-LFRouteService_Example-dummy.m */; };
+		E65DF3771E9F8DE7F8ECB048A0D2ECF8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		EE70C59B4FF4C30136D8B23534F4B5CF /* LFRouteService-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 26859E445D7C2EE9F73D40CD6C51278B /* LFRouteService-dummy.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2C3AABB5146AC3B9EE2155EDDFD47D86 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4C2298237EC264B906B0DE6420363A20;
+			remoteInfo = "Pods-LFRouteService_Example";
+		};
+		B9A7E2467BF7777E0FDF3BE7719DBA6B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E5D58956B9C5DB0D9CD7FA6F13516A98;
+			remoteInfo = LFRouteService;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		01D3D8CB3A010329B246168F0D44C29F /* Pods-LFRouteService_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-LFRouteService_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		057D6ABF0463767352D51BB599135EF9 /* Pods_LFRouteService_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_LFRouteService_Tests.framework; path = "Pods-LFRouteService_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0909C6A1704EF82D72FE3113BE26BD1A /* LFRouteService.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = LFRouteService.m; path = LFRouteService/Classes/LFRouteService.m; sourceTree = "<group>"; };
+		11C1ED72937D37E276E71C8EAADD6258 /* Pods-LFRouteService_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LFRouteService_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		1F0AD635907F0FF3CC0FF0F6F335C829 /* LFRouteService.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = LFRouteService.modulemap; sourceTree = "<group>"; };
+		26859E445D7C2EE9F73D40CD6C51278B /* LFRouteService-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "LFRouteService-dummy.m"; sourceTree = "<group>"; };
+		2F9F31FC079E6543140A410EFABE7705 /* Pods-LFRouteService_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-LFRouteService_Tests.modulemap"; sourceTree = "<group>"; };
+		2FCE19BE0B4100BE20213A5095E119C2 /* Pods-LFRouteService_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-LFRouteService_Example-dummy.m"; sourceTree = "<group>"; };
+		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		3A7C7D2C9F5296B5D50C94AEFA3F7DAD /* Pods-LFRouteService_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-LFRouteService_Example-umbrella.h"; sourceTree = "<group>"; };
+		4510BAE1BED3C45EC01603011DDE4033 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		5AEB1AEA9E55FAA65AE9932F3C820D37 /* LFRouteService.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = LFRouteService.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		636B4D97280BC68CA8D123C7FAC21A26 /* LFRouteService-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "LFRouteService-prefix.pch"; sourceTree = "<group>"; };
+		7CAF4C214E19559CD59300C76E7A7415 /* Pods-LFRouteService_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LFRouteService_Tests-Info.plist"; sourceTree = "<group>"; };
+		7F9AC5669233A1E98E538B3B183A0329 /* LFRouteService.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = LFRouteService.framework; path = LFRouteService.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8CE72702682194C1D8A7C1A156F9B6CE /* Pods_LFRouteService_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_LFRouteService_Example.framework; path = "Pods-LFRouteService_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8D84ECC06094FF2B2786B71EC1C0B8EE /* Pods-LFRouteService_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-LFRouteService_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9F39C3DAA0E95EF48A63BAE2A8337448 /* LFRouteService.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LFRouteService.h; path = LFRouteService/Classes/LFRouteService.h; sourceTree = "<group>"; };
+		9F4CC8772D41B49F9C7161E34F1E78F8 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		9FB1251E26BEAF4D8619F1F452DBED57 /* Pods-LFRouteService_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-LFRouteService_Example.modulemap"; sourceTree = "<group>"; };
+		A1095E1BBC38414612BF162B00B54BEC /* Pods-LFRouteService_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LFRouteService_Example-Info.plist"; sourceTree = "<group>"; };
+		A9BFCD9138F663CCCA860E2E27165CCB /* Pods-LFRouteService_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LFRouteService_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		AA18B58B25D6946C09F29E3514C957E1 /* Pods-LFRouteService_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-LFRouteService_Tests-umbrella.h"; sourceTree = "<group>"; };
+		BC30ED6A48836C00301AD3C0ED9CE755 /* Pods-LFRouteService_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LFRouteService_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		D025A16D877310FB137CB91B71FEF343 /* Pods-LFRouteService_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-LFRouteService_Example-frameworks.sh"; sourceTree = "<group>"; };
+		D0FB0D31FB7D5092061C2127535B9249 /* Pods-LFRouteService_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LFRouteService_Example.release.xcconfig"; sourceTree = "<group>"; };
+		D742EB9D3A9030F9F7345B5B764D14E9 /* LFRouteService-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "LFRouteService-Info.plist"; sourceTree = "<group>"; };
+		E23BE3CD2828BED119BC4338E4979ADA /* Pods-LFRouteService_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LFRouteService_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		E70C5B3DA079F0886322D7D4A71FE4D8 /* Pods-LFRouteService_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LFRouteService_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		EBDCF7093E32941DF1A8825AE0084A9C /* LFRouteService-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "LFRouteService-umbrella.h"; sourceTree = "<group>"; };
+		EEB1054636A3A77E451B179949DC877E /* LFRouteService.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = LFRouteService.xcconfig; sourceTree = "<group>"; };
+		F012A4760AACE1D96142C81AA86AAD3B /* Pods-LFRouteService_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-LFRouteService_Tests-dummy.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		751C0BB82818E27639B05E0DA49B3D84 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E65DF3771E9F8DE7F8ECB048A0D2ECF8 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8946CF76079A00FAA87BF201FD56393A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				022CB26A3BC2FBF1C9D7F192C801FCA6 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD38ABC84A9A3B1A8B50507C1E9C2F1D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B1F11C2CE345DD3DC9DAD83ADFB8A1CC /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		03C9CE8D6C6C009418B039FC97E017F2 /* Pods-LFRouteService_Example */ = {
+			isa = PBXGroup;
+			children = (
+				9FB1251E26BEAF4D8619F1F452DBED57 /* Pods-LFRouteService_Example.modulemap */,
+				8D84ECC06094FF2B2786B71EC1C0B8EE /* Pods-LFRouteService_Example-acknowledgements.markdown */,
+				E70C5B3DA079F0886322D7D4A71FE4D8 /* Pods-LFRouteService_Example-acknowledgements.plist */,
+				2FCE19BE0B4100BE20213A5095E119C2 /* Pods-LFRouteService_Example-dummy.m */,
+				D025A16D877310FB137CB91B71FEF343 /* Pods-LFRouteService_Example-frameworks.sh */,
+				A1095E1BBC38414612BF162B00B54BEC /* Pods-LFRouteService_Example-Info.plist */,
+				3A7C7D2C9F5296B5D50C94AEFA3F7DAD /* Pods-LFRouteService_Example-umbrella.h */,
+				A9BFCD9138F663CCCA860E2E27165CCB /* Pods-LFRouteService_Example.debug.xcconfig */,
+				D0FB0D31FB7D5092061C2127535B9249 /* Pods-LFRouteService_Example.release.xcconfig */,
+			);
+			name = "Pods-LFRouteService_Example";
+			path = "Target Support Files/Pods-LFRouteService_Example";
+			sourceTree = "<group>";
+		};
+		4353E8D3B6C959C2AA96E25D8369F2C7 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				5AEB1AEA9E55FAA65AE9932F3C820D37 /* LFRouteService.podspec */,
+				9F4CC8772D41B49F9C7161E34F1E78F8 /* LICENSE */,
+				4510BAE1BED3C45EC01603011DDE4033 /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		473C0C9E54E6E31ED194710404B3C2FD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7F9AC5669233A1E98E538B3B183A0329 /* LFRouteService.framework */,
+				8CE72702682194C1D8A7C1A156F9B6CE /* Pods_LFRouteService_Example.framework */,
+				057D6ABF0463767352D51BB599135EF9 /* Pods_LFRouteService_Tests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8DF19E9FE3B6F903B26E5EFD5DEA3D66 /* Pods-LFRouteService_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				2F9F31FC079E6543140A410EFABE7705 /* Pods-LFRouteService_Tests.modulemap */,
+				01D3D8CB3A010329B246168F0D44C29F /* Pods-LFRouteService_Tests-acknowledgements.markdown */,
+				BC30ED6A48836C00301AD3C0ED9CE755 /* Pods-LFRouteService_Tests-acknowledgements.plist */,
+				F012A4760AACE1D96142C81AA86AAD3B /* Pods-LFRouteService_Tests-dummy.m */,
+				7CAF4C214E19559CD59300C76E7A7415 /* Pods-LFRouteService_Tests-Info.plist */,
+				AA18B58B25D6946C09F29E3514C957E1 /* Pods-LFRouteService_Tests-umbrella.h */,
+				11C1ED72937D37E276E71C8EAADD6258 /* Pods-LFRouteService_Tests.debug.xcconfig */,
+				E23BE3CD2828BED119BC4338E4979ADA /* Pods-LFRouteService_Tests.release.xcconfig */,
+			);
+			name = "Pods-LFRouteService_Tests";
+			path = "Target Support Files/Pods-LFRouteService_Tests";
+			sourceTree = "<group>";
+		};
+		98A8EBD7F4D235715FA1EFF737D253E4 /* LFRouteService */ = {
+			isa = PBXGroup;
+			children = (
+				9F39C3DAA0E95EF48A63BAE2A8337448 /* LFRouteService.h */,
+				0909C6A1704EF82D72FE3113BE26BD1A /* LFRouteService.m */,
+				4353E8D3B6C959C2AA96E25D8369F2C7 /* Pod */,
+				AC8F8916D539845579614B35FB01E603 /* Support Files */,
+			);
+			name = LFRouteService;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		AC8F8916D539845579614B35FB01E603 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				1F0AD635907F0FF3CC0FF0F6F335C829 /* LFRouteService.modulemap */,
+				EEB1054636A3A77E451B179949DC877E /* LFRouteService.xcconfig */,
+				26859E445D7C2EE9F73D40CD6C51278B /* LFRouteService-dummy.m */,
+				D742EB9D3A9030F9F7345B5B764D14E9 /* LFRouteService-Info.plist */,
+				636B4D97280BC68CA8D123C7FAC21A26 /* LFRouteService-prefix.pch */,
+				EBDCF7093E32941DF1A8825AE0084A9C /* LFRouteService-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/LFRouteService";
+			sourceTree = "<group>";
+		};
+		C0834CEBB1379A84116EF29F93051C60 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		C477B6C1C58BCB859A95F209E83E98AC /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				03C9CE8D6C6C009418B039FC97E017F2 /* Pods-LFRouteService_Example */,
+				8DF19E9FE3B6F903B26E5EFD5DEA3D66 /* Pods-LFRouteService_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				F23B58830914D379F16BBBCED438824E /* Development Pods */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				473C0C9E54E6E31ED194710404B3C2FD /* Products */,
+				C477B6C1C58BCB859A95F209E83E98AC /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C0834CEBB1379A84116EF29F93051C60 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F23B58830914D379F16BBBCED438824E /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				98A8EBD7F4D235715FA1EFF737D253E4 /* LFRouteService */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		29428631BA3D8E3C266A4935059D8F31 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D8F6A2D9D1C7AC9D4E1A53E9C290539 /* LFRouteService-umbrella.h in Headers */,
+				033A52E70CC81509EF6CF2ED56B63E91 /* LFRouteService.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		63ED59F972D7F432212DAFC0A667FB2B /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1ED89774AE144B94AB67179DB4A7FD50 /* Pods-LFRouteService_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		71C2D6E4E327917EC50C090AA13D5F34 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7E89899D09A137904BB357CCDBC7465E /* Pods-LFRouteService_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		010C3F39EF2F2A4E5E0898487D07EDD6 /* Pods-LFRouteService_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D5F5BE2D698FE0E2BC549B4E429E97C5 /* Build configuration list for PBXNativeTarget "Pods-LFRouteService_Tests" */;
+			buildPhases = (
+				71C2D6E4E327917EC50C090AA13D5F34 /* Headers */,
+				8760C16E222D1E060EF2FB4E6FDB7FA5 /* Sources */,
+				8946CF76079A00FAA87BF201FD56393A /* Frameworks */,
+				68F9B3CA5267A04E133764985C330320 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D529BCE2FD60FEF1F0FF02F0B9CF3BEB /* PBXTargetDependency */,
+			);
+			name = "Pods-LFRouteService_Tests";
+			productName = "Pods-LFRouteService_Tests";
+			productReference = 057D6ABF0463767352D51BB599135EF9 /* Pods_LFRouteService_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		4C2298237EC264B906B0DE6420363A20 /* Pods-LFRouteService_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6974C56AD02843F5331A715CB360B2DC /* Build configuration list for PBXNativeTarget "Pods-LFRouteService_Example" */;
+			buildPhases = (
+				63ED59F972D7F432212DAFC0A667FB2B /* Headers */,
+				780AB93EF25D0CF4F48C78E9FEEF946E /* Sources */,
+				751C0BB82818E27639B05E0DA49B3D84 /* Frameworks */,
+				6DFA5FA812DF27E82D155AD06989EF08 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3A173396D7383C70EAEAA4D395968433 /* PBXTargetDependency */,
+			);
+			name = "Pods-LFRouteService_Example";
+			productName = "Pods-LFRouteService_Example";
+			productReference = 8CE72702682194C1D8A7C1A156F9B6CE /* Pods_LFRouteService_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		E5D58956B9C5DB0D9CD7FA6F13516A98 /* LFRouteService */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C2094F954A3F427193E836DF8DF28D98 /* Build configuration list for PBXNativeTarget "LFRouteService" */;
+			buildPhases = (
+				29428631BA3D8E3C266A4935059D8F31 /* Headers */,
+				129580D367D01A4BDD643E838D9DF60E /* Sources */,
+				CD38ABC84A9A3B1A8B50507C1E9C2F1D /* Frameworks */,
+				3F298C3C69A30936621AA14E5BD3B141 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LFRouteService;
+			productName = LFRouteService;
+			productReference = 7F9AC5669233A1E98E538B3B183A0329 /* LFRouteService.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 473C0C9E54E6E31ED194710404B3C2FD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E5D58956B9C5DB0D9CD7FA6F13516A98 /* LFRouteService */,
+				4C2298237EC264B906B0DE6420363A20 /* Pods-LFRouteService_Example */,
+				010C3F39EF2F2A4E5E0898487D07EDD6 /* Pods-LFRouteService_Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3F298C3C69A30936621AA14E5BD3B141 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		68F9B3CA5267A04E133764985C330320 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6DFA5FA812DF27E82D155AD06989EF08 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		129580D367D01A4BDD643E838D9DF60E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE70C59B4FF4C30136D8B23534F4B5CF /* LFRouteService-dummy.m in Sources */,
+				047D9BB7CE2D70A25A2F1FC655F37F12 /* LFRouteService.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		780AB93EF25D0CF4F48C78E9FEEF946E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D4D351B8F5C88C65B5D5AC47A540220C /* Pods-LFRouteService_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8760C16E222D1E060EF2FB4E6FDB7FA5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5E8FA79A1066F3335DF3289EEF835C5C /* Pods-LFRouteService_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3A173396D7383C70EAEAA4D395968433 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = LFRouteService;
+			target = E5D58956B9C5DB0D9CD7FA6F13516A98 /* LFRouteService */;
+			targetProxy = B9A7E2467BF7777E0FDF3BE7719DBA6B /* PBXContainerItemProxy */;
+		};
+		D529BCE2FD60FEF1F0FF02F0B9CF3BEB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-LFRouteService_Example";
+			target = 4C2298237EC264B906B0DE6420363A20 /* Pods-LFRouteService_Example */;
+			targetProxy = 2C3AABB5146AC3B9EE2155EDDFD47D86 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		1905E2C67E1789489E6F2B4E21B5E64B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A9BFCD9138F663CCCA860E2E27165CCB /* Pods-LFRouteService_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-LFRouteService_Example/Pods-LFRouteService_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-LFRouteService_Example/Pods-LFRouteService_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		4BE66A09A74FD25164AAB3C2645B9B93 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		5F322AC0CD46C07D138022EC26D06708 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E23BE3CD2828BED119BC4338E4979ADA /* Pods-LFRouteService_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-LFRouteService_Tests/Pods-LFRouteService_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-LFRouteService_Tests/Pods-LFRouteService_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		653E23A49801A5CF9BBD3C463563D186 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D0FB0D31FB7D5092061C2127535B9249 /* Pods-LFRouteService_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-LFRouteService_Example/Pods-LFRouteService_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-LFRouteService_Example/Pods-LFRouteService_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		7EF7227D9B20A1D549000096ACCB23D7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		8F7F6CE170768E67903B3813730C4CC7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EEB1054636A3A77E451B179949DC877E /* LFRouteService.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/LFRouteService/LFRouteService-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/LFRouteService/LFRouteService-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/LFRouteService/LFRouteService.modulemap";
+				PRODUCT_MODULE_NAME = LFRouteService;
+				PRODUCT_NAME = LFRouteService;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		9FDD77D1BE62F43621D72A004BC14FE2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 11C1ED72937D37E276E71C8EAADD6258 /* Pods-LFRouteService_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-LFRouteService_Tests/Pods-LFRouteService_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-LFRouteService_Tests/Pods-LFRouteService_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		F6B4BCC3235AD31B667AE1C0DFC440D6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EEB1054636A3A77E451B179949DC877E /* LFRouteService.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/LFRouteService/LFRouteService-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/LFRouteService/LFRouteService-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/LFRouteService/LFRouteService.modulemap";
+				PRODUCT_MODULE_NAME = LFRouteService;
+				PRODUCT_NAME = LFRouteService;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7EF7227D9B20A1D549000096ACCB23D7 /* Debug */,
+				4BE66A09A74FD25164AAB3C2645B9B93 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6974C56AD02843F5331A715CB360B2DC /* Build configuration list for PBXNativeTarget "Pods-LFRouteService_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1905E2C67E1789489E6F2B4E21B5E64B /* Debug */,
+				653E23A49801A5CF9BBD3C463563D186 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C2094F954A3F427193E836DF8DF28D98 /* Build configuration list for PBXNativeTarget "LFRouteService" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8F7F6CE170768E67903B3813730C4CC7 /* Debug */,
+				F6B4BCC3235AD31B667AE1C0DFC440D6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D5F5BE2D698FE0E2BC549B4E429E97C5 /* Build configuration list for PBXNativeTarget "Pods-LFRouteService_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9FDD77D1BE62F43621D72A004BC14FE2 /* Debug */,
+				5F322AC0CD46C07D138022EC26D06708 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

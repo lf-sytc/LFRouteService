@@ -1,0 +1,16 @@
+PODS:
+  - LFRouteService (0.1.0)
+
+DEPENDENCIES:
+  - LFRouteService (from `../`)
+
+EXTERNAL SOURCES:
+  LFRouteService:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  LFRouteService: 768a274fa4d57318091dd2505f15e240aae4e22a
+
+PODFILE CHECKSUM: c1f11d2a6c8b10919c61294fca67ddff54c98c49
+
+COCOAPODS: 1.8.4

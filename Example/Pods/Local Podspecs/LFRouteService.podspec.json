@@ -1,0 +1,22 @@
+{
+  "name": "LFRouteService",
+  "version": "0.1.0",
+  "summary": "A short description of LFRouteService.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/lf_sytc@hotmail.com/LFRouteService",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "lf_sytc@hotmail.com": "lf_sytc@hotmail.com"
+  },
+  "source": {
+    "git": "https://github.com/lf_sytc@hotmail.com/LFRouteService.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "LFRouteService/Classes/**/*"
+}

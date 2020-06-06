@@ -7,7 +7,8 @@
 
 ## Example
 
-To run the example project, clone the repo, and run `pod install` from the Example directory first.
+
+
 
 ## Requirements
 
@@ -22,7 +23,7 @@ pod 'LFRouteService'
 
 ## Author
 
-lf_sytc@hotmail.com, lf_sytc@hotmail.com
+lf_sytc@hotmail.com
 
 ## License
 

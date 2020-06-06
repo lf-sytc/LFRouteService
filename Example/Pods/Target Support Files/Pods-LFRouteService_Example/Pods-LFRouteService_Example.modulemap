@@ -1,0 +1,6 @@
+framework module Pods_LFRouteService_Example {
+  umbrella header "Pods-LFRouteService_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}
