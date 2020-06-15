@@ -8,6 +8,7 @@
 
 #import "LFDEMOViewController.h"
 #import <LFRouteService/LFRouteService.h>
+#import "DemoModel.h"
 @interface LFDEMOViewController ()
 <UITableViewDelegate,
 UITableViewDataSource>
@@ -30,6 +31,16 @@ UITableViewDataSource>
 
 - (void)initData{
     mainDataArray = [[NSMutableArray alloc] init];
+    
+    NSArray *titleArray = @[@"常规无参数跳转-路由绑定界面",
+                            @"常规无参数跳转-路由绑定转发类"];
+    NSArray *routeNameArray = @[@"route://demoOne",
+                                @"route://demoTwo"];
+    
+    for (NSInteger i = 0; i < titleArray.count; i++) {
+        DemoModel *model = [DemoModel initWithTitle:titleArray[i] routeName:routeNameArray[i]];
+        [mainDataArray addObject:model];
+    }
 }
 
 
@@ -56,8 +67,8 @@ UITableViewDataSource>
     if (cell == nil) {
         cell = [[UITableViewCell alloc] initWithStyle:UITableViewCellStyleDefault reuseIdentifier:@"UITableViewCell"];
     }
-    
-    cell.textLabel.text = mainDataArray[indexPath.row];
+    DemoModel *model = mainDataArray[indexPath.row];
+    cell.textLabel.text = model.title;
     return cell;
 }
 
@@ -65,8 +76,8 @@ UITableViewDataSource>
 
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath{
 
-    NSString *route = mainDataArray[indexPath.row];
-    [LFRouteService receiveRouteURL:route];
+    DemoModel *model = mainDataArray[indexPath.row];
+    [LFRouteService receiveRouteURL:model.name];
 }
 
 

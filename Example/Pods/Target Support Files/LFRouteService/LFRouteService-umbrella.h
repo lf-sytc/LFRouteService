@@ -10,9 +10,11 @@
 #endif
 #endif
 
+#import "LFRoute.h"
 #import "LFRouteManage.h"
 #import "LFRouteProtocol.h"
 #import "LFRouteService.h"
+#import "LFRouteTool.h"
 
 FOUNDATION_EXPORT double LFRouteServiceVersionNumber;
 FOUNDATION_EXPORT const unsigned char LFRouteServiceVersionString[];

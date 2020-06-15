@@ -14,7 +14,7 @@
 
 @implementation LFRouteManage
 
-+ (instancetype)shared {
++ (instancetype)sharedInstance {
     
     static LFRouteManage *lfRouteManage = nil;
     static dispatch_once_t onceToken;
@@ -40,8 +40,7 @@
                  route:(NSString *)routeName;{
     
     if (routeName.length > 0 &&
-        [moduleClass conformsToProtocol:@protocol(LFRouteProtocol) ]) {
-        [LFRouteManage shared].modules[routeName] = moduleClass;
+        [moduleClass conformsToProtocol:@protocol(LFRouteProtocol) ]) {        [LFRouteManage sharedInstance].modules[routeName] = moduleClass;
     }
 }
 
@@ -49,7 +48,7 @@
 + (BOOL)canReceiveRouteURL:(NSString *)routeURL{
 
     if (routeURL.length > 0) {
-        return [LFRouteManage shared].modules[routeURL] != nil;
+        return [LFRouteManage sharedInstance].modules[routeURL] != nil;
     }
     return NO;
 }
@@ -61,7 +60,7 @@
     NSArray *temArray = [routeURL componentsSeparatedByString:@"?"];
     NSString *routeName = [temArray firstObject];
     NSString *routeData = [temArray lastObject];
-    Class ocClass = [LFRouteManage shared].modules[routeName];
+    Class ocClass = [LFRouteManage sharedInstance].modules[routeName];
     if (ocClass &&
         [ocClass respondsToSelector:@selector(LFRouteData:url:completion:)]){
         NSDictionary *dic = [LFRouteManage queryDicWithStr:routeData];
